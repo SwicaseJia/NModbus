@@ -11,8 +11,8 @@ namespace Samples
         private readonly SparsePointSource<bool> _coilInputs;
         private readonly SparsePointSource<ushort> _holdingRegisters;
         private readonly SparsePointSource<ushort> _inputRegisters;
-        private readonly SparsePointSource<ushort> _inputRegisters1;
-        private readonly SparsePointSource<ushort> mybranch;
+
+
         public SlaveStorage()
         {
             _coilDiscretes = new SparsePointSource<bool>();
