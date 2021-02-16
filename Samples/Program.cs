@@ -21,7 +21,7 @@ namespace Samples
     {
         private const string PrimarySerialPortName = "COM12";
         private const string SecondarySerialPortName = "COM2";
-
+        private readonly SparsePointSource<ushort> _inputRegisters1;
         private static async Task<int> Main(string[] args)
         {
             var cts = new CancellationTokenSource();
